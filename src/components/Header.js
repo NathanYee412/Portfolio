@@ -5,6 +5,7 @@ const navigation = [
   { name: 'Home', href: '#', current: true },
   { name: 'Projects', href: '#', current: false },
   { name: 'Experience', href: '#', current: false },
+  { name: 'About Me', href: '#', current: false },
 ]
 
 function classNames(...classes) {
@@ -13,7 +14,7 @@ function classNames(...classes) {
 
 export default function Header() {
   return (
-    <Disclosure as="nav" className="bg-gray-800">
+    <Disclosure as="nav" className="bg-slate-800">
       {({ open }) => (
         <>
           <div className="max-w-7xl mx-auto px-2 sm:px-6 lg:px-8">
@@ -31,7 +32,7 @@ export default function Header() {
               </div>
               <div className="flex-1 flex items-center justify-center sm:items-stretch sm:justify-start">
                 <div className="flex-shrink-0 flex items-center">
-                  <h1 className="text-4xl text-blue-300 font-semibold">Nathan Yee</h1>
+                  <h1 className="text-4xl text-transparent bg-clip-text bg-gradient-to-br from-blue-600 to-purple-400 font-semibold">Nathan Yee</h1>
                 </div>
                 <div className="hidden sm:block sm:ml-6">
                   <div className="flex space-x-4">
