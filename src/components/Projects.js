@@ -10,7 +10,7 @@ export default function Projects() {
                     <h1 className='text-3xl font-bold text-[#fbff00]'>Recent Projects</h1>
                     <a href='/projects' className='btn font-bold bg-[#fbff00] pt-2 pl-2 pr-2 pb-2 mx-2 float-right rounded-md'>View More</a>
                 </div>               
-                <div className='sm:columns-3'>
+                <div className='sm:grid sm:grid-cols-3 sm:gap-4'>
                     <Card projectName='Portfolio Project' description='A static webpage project built with ReactJS and Tailwind CSS. This is the current webpage that you are viewing' tags={['ReactJS', 'JavaScript','TailwindCSS']}  link='https://www.google.com'/>
                     <Card projectName='Instagram Link Tree' description='Custom link tree built with ReactJS. Deployed with GitHub Pages with a custom domain setup with Godaddy.com' tags={['ReactJS', 'JavaScript']} link='https://www.google.com'/>
                     <Card projectName='Portfolio Project' description='A portfolio project built with ReactJS and Tailwind CSS' tags={['ReactJS', 'JavaScript','TailwindCSS']} link='https://www.google.com'/>
