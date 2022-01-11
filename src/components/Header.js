@@ -17,7 +17,7 @@ export default function Header() {
     <Disclosure as="nav" className="bg-slate-800">
       {({ open }) => (
         <>
-          <div className="max-w-7xl mx-auto px-2 sm:px-6 lg:px-8">
+          <div className="max-w-7xl mx-auto px-2 sm:px-6 lg:px-8 pt-3">
             <div className="relative flex items-center justify-between h-16">
               <div className="absolute inset-y-0 left-0 flex items-center sm:hidden">
                 {/* Mobile menu button*/}
@@ -32,7 +32,7 @@ export default function Header() {
               </div>
               <div className="flex-1 flex items-center justify-center sm:items-stretch sm:justify-start">
                 <div className="flex-shrink-0 flex items-center">
-                  <h1 className="text-4xl text-transparent bg-clip-text bg-gradient-to-br from-blue-600 to-purple-400 font-semibold">Nathan Yee</h1>
+                  <h1 className="text-4xl text-transparent text-[#fbff00] font-bold">Nathan Yee</h1>
                 </div>
                 <div className="hidden sm:block sm:ml-6">
                   <div className="flex space-x-4">
