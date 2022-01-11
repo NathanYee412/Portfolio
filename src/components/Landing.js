@@ -1,7 +1,7 @@
 export default function Landing() {
     
     return(
-        <div className='flex h-screen bg-cover bg-slate-800 pl-8 pr-8'>
+        <div className='flex bg-cover bg-slate-800 pl-8 pr-8'>
             <div className='flex container justify-center md:m-40'>
                 <div className='md:columns-2 gap-1 max-w-screen-xl'>
                     <div className='flex justify-center'>
@@ -10,13 +10,8 @@ export default function Landing() {
                                 <span className='block xl:inline'>Hello<br/>World!</span>
                             </h1>
                             <p className='text-lg md:text-3xl md:text-left lg:text-left text-[#575bfb]  pt-10'>Welcome to my personal<br/> portfolio site!</p>
-                            {/* <div className='pt-2'>
-                                <button className='bg-[#575bfb] text-[#fbff00] hover:bg-blue-700 text-white font-bold py-2 px-4 rounded-full'>View Projects</button>
-                                <button className='bg-[#575bfb] text-[#fbff00] hover:bg-blue-700 text-white font-bold py-2 px-4 rounded-full'>Contact Me</button>
-                            </div> */}
                         </div>
                     </div>    
-                        
                     <div className='flex justify-center' >
                         <img src='https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/c2046041-a08f-46bd-85d1-27ffbe7b4585/dbo9hr9-d1c0ac4a-669b-4ff3-b44b-6573079f1867.gif?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcL2MyMDQ2MDQxLWEwOGYtNDZiZC04NWQxLTI3ZmZiZTdiNDU4NVwvZGJvOWhyOS1kMWMwYWM0YS02NjliLTRmZjMtYjQ0Yi02NTczMDc5ZjE4NjcuZ2lmIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.owAgL46ZfcMrK0tJ36eAYrhsbo6uST416jtUB-K1SoE' alt='computer'></img>
                     </div>
