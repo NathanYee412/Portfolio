@@ -9,7 +9,7 @@ export default function Landing() {
                             <h1 className='tracking-tight font-bold text-transparent bg-clip-text bg-gradient-to-br from-blue-600 to-purple-400 text-6xl sm:text-8xl md:text-9xl'>
                                 <span className='block xl:inline'>Hello<br/>World!</span>
                             </h1>
-                            <p className='text-lg md:text-3xl md:text-left lg:text-left text-[#575bfb]  pt-10'>Welcome to my personal<br/> portfolio site!</p>
+                            <p className='animate-bounce text-lg md:text-3xl md:text-left lg:text-left text-[#575bfb]  pt-10'>Welcome to my personal<br/> portfolio site!</p>
                         </div>
                     </div>    
                     <div className='flex justify-center object-scale-down h-0 lg:h-auto lg:w-auto'>
