@@ -6,7 +6,7 @@ export default function Card(props) {
             <div className='px-6 py-4 bg-slate-100'>
                 <div className='columns-2'>
                     <div className='font-bold text-xl mb-2'>{props.projectName}</div>
-                    <a href={props.link} className='btn font-bold bg-slate-300 pt-1 pl-1 pr-1 pb-1 mx-2 float-right rounded-md'>View Github</a>
+                    <a href={props.link} className='btn font-bold bg-slate-300 pt-1 pl-2 pr-2 pb-1 mx-2 float-right rounded-md'>View Github</a>
                 </div>
                 <p className='text-gray-700 text-base'>
                     {props.description}
