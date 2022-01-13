@@ -1,7 +1,5 @@
 import { Disclosure } from '@headlessui/react'
 import { MenuIcon, XIcon } from '@heroicons/react/outline'
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faCoffee } from '@fortawesome/free-solid-svg-icons'
 
 const navigation = [
   { name: 'Home', href: '/', current: false },
@@ -54,12 +52,6 @@ export default function Header() {
                   </div>
                 </div>
               </div>
-              <div className='flex float-right'>
-                          <ul>
-                            <FontAwesomeIcon icon={faCoffee} />
-                            <li>LinkedIn Icon</li>
-                          </ul>
-                    </div>
             </div>
           </div>
 
