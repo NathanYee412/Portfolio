@@ -19,21 +19,7 @@ const ProjectData = [
         tags: ['Node.js', 'JavaScript','EJS', 'MongoDB'],
         link: 'https://github.com/NathanYee412/EJS-To-Do-List-v1',
         img: 'https://i.imgur.com/A2YXyZW.png'
-    },
-    { 
-        projectName: 'To-do List',
-        description: 'A to-do list built with node.js and EJS templates',
-        tags: ['Node.js', 'JavaScript','EJS', 'MongoDB'],
-        link: 'https://github.com/NathanYee412/EJS-To-Do-List-v1',
-        img: 'https://i.imgur.com/A2YXyZW.png'
-    },
-    { 
-        projectName: 'To-do List',
-        description: 'A to-do list built with node.js and EJS templates',
-        tags: ['Node.js', 'JavaScript','EJS', 'MongoDB'],
-        link: 'https://github.com/NathanYee412/EJS-To-Do-List-v1',
-        img: 'https://i.imgur.com/A2YXyZW.png'
-    },
+    }
 
 ]
 

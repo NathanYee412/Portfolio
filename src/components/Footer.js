@@ -10,7 +10,9 @@ export default function Footer() {
                     <p className='text-white font-bold'>Irvine, CA 92606</p>
                 </div>
                 <div>
-                    <h1 className='flex justify-left text-3xl font-bold text-[#fbff00]'>Social media</h1>
+                    <h1 className='text-3xl font-bold text-[#fbff00]'>Social media</h1>
+                    <p className='text-white font-bold'>LinkedIn</p>
+                    <p className='text-white font-bold'>GitHub</p>
                 </div>
             </div>
         </div>
