@@ -8,7 +8,7 @@ export default function Card(props) {
                     <div className='font-bold text-xl mb-2'>{props.projectName}</div>
                     <a href={props.link} className='btn font-bold bg-green-400 px-2 py-2 mx-2 my-auto float-right rounded-md text-xs'>View Project</a>
                 </div>
-                <p className='text-gray-700 text-base'>
+                <p className='text-gray-700 text-base pt-3'>
                     {props.description}
                 </p>
             </div>
