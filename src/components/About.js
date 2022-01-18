@@ -8,10 +8,13 @@ export default function About() {
             <div className="bg-gray-800 rounded-md px-5 py-5 mx-5 my-5">
               <h1 className="text-2xl font-bold text-green-400">Education</h1>
               <p className="text-xl font-bold pt-4 text-slate-300">
-                California State University
+                California State University Fullerton
               </p>
               <p className="text-xl font-bold pt-4 text-slate-300">
                 Bachelors of Science, Computer Science
+              </p>
+              <p className="text-xl font-bold pt-4 text-slate-300">
+                Class of 2020
               </p>
             </div>
             <div className="bg-gray-800 rounded-md px-5 py-5 mx-5 my-5">
