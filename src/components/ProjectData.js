@@ -19,6 +19,13 @@ const ProjectData = [
         tags: ['Node.js', 'JavaScript','EJS', 'MongoDB'],
         link: 'https://github.com/NathanYee412/EJS-To-Do-List-v1',
         img: 'https://i.imgur.com/A2YXyZW.png'
+    },
+    {
+        projectName: 'File Organizer',
+        description: 'Python program used to organize messy files. GUI was made with tkinter with buttons to select a directory and a button to run the function',
+        tags: ['tkinter', 'Python3'],
+        link: 'https://github.com/NathanYee412/pyPhotoOrganizer',
+        img: 'https://i.imgur.com/lg9f3Iy.png'
     }
 
 ]
