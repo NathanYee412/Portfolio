@@ -11,8 +11,15 @@ export default function Footer() {
                 </div>
                 <div>
                     <h1 className='text-3xl font-bold text-[#fbff00]'>Social media</h1>
-                    <a href='https://www.linkedin.com/in/nathanyee88/' className='text-white font-bold'>LinkedIn</a>
-                    <a href='https://github.com/NathanYee412' className='text-white font-bold'>GitHub</a>
+                    <ul>
+                        <li>
+                            <a href='https://www.linkedin.com/in/nathanyee88/' className='text-white font-bold'>LinkedIn!</a>
+
+                        </li>
+                        <li>
+                            <a href='https://github.com/NathanYee412' className='text-white font-bold'>GitHub!</a>
+                        </li>
+                    </ul>
                 </div>
             </div>
         </div>
