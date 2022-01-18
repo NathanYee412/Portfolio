@@ -11,8 +11,8 @@ export default function Footer() {
                 </div>
                 <div>
                     <h1 className='text-3xl font-bold text-[#fbff00]'>Social media</h1>
-                    <p className='text-white font-bold'>LinkedIn</p>
-                    <p className='text-white font-bold'>GitHub</p>
+                    <a href='https://www.linkedin.com/in/nathanyee88/' className='text-white font-bold'>LinkedIn</a>
+                    <a href='https://github.com/NathanYee412' className='text-white font-bold'>GitHub</a>
                 </div>
             </div>
         </div>
