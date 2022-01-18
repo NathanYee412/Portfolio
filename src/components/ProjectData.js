@@ -26,6 +26,13 @@ const ProjectData = [
         tags: ['tkinter', 'Python3'],
         link: 'https://github.com/NathanYee412/pyPhotoOrganizer',
         img: 'https://i.imgur.com/lg9f3Iy.png'
+    },
+    {
+        projectName: 'movieDB',
+        description: 'Movie database program where data is created, read, updated, and deleted from a text file.',
+        tags: ['Java'],
+        link: 'https://github.com/NathanYee412/movieDB',
+        img: 'https://i.imgur.com/4vsg13m.png'
     }
 
 ]

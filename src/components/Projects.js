@@ -10,7 +10,7 @@ export default function Projects() {
                 <div className='grid grid-cols-2'>
                     <h1 className='text-3xl font-bold text-[#fbff00]'>Recent Projects</h1>
                     <div>
-                        <a href='/projects' className='btn font-bold bg-green-400 pt-2 pl-2 pr-2 pb-2 mx-2 float-right rounded-md'>View More</a>
+                        <a href='/projects' className='btn font-bold bg-green-400 pt-2 pl-2 pr-2 pb-2 mx-2 float-right rounded-md'>View More Projects</a>
                     </div>
                 </div>               
                 <div className='sm:grid sm:grid-cols-3 sm:gap-4'>

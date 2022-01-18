@@ -14,7 +14,8 @@ export default function ProjectPage() {
                         <h1 className='text-3xl font-bold text-[#fbff00]'>Projects</h1>
                         <p className='text-2xl pt-4 text-slate-300'>Hello! Welcome to my project showcase. This is where you can find my recently created projects.</p>
                         <p className='text-2xl pb-4 text-slate-300'>The "View Project" button will either lead you to a hosted site or its GitHub repository.</p>
-                    </div>               
+                    </div>
+                    <hr className="border-amber-300 my-4"></hr>               
                     <div className='sm:grid sm:grid-cols-3 sm:gap-4'>
                         {ProjectData.map((project) => {
                             return(
