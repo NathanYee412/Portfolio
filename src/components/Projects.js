@@ -5,7 +5,7 @@ import ProjectData from './ProjectData';
 export default function Projects() {
 
     return(
-        <div className='bg-gray-800 px-3 py-3'>
+        <div className='bg-gray-800 px-3 py-3' id='projects'>
             <div className='max-w-7xl mx-auto px-2 sm:px-6 lg:px-8 pt-6 pb-9 mb-10 bg-gray-900 rounded-md'>
                 <div className='grid grid-cols-2'>
                     <h1 className='text-3xl font-bold text-[#fbff00]'>Recent Projects</h1>

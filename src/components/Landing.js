@@ -1,7 +1,7 @@
 export default function Landing() {
     
     return(
-        <div className='flex bg-cover bg-slate-800 pl-8 pr-8'>
+        <div className='flex bg-cover bg-slate-800 pl-8 pr-8' id='home'>
             <div className='flex container justify-center md:m-40'>
                 <div className='md:grid md:grid-cols-2 md:gap-4 max-w-screen-xl'>
                     <div className='flex justify-center'>
