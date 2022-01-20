@@ -1,5 +1,5 @@
 export default function Card(props) {
-
+        
     return(
         <div className='max-w-sm rounded overflow-hidden shadow-lg pt-3 gap-4'>
             <img className='w-full' alt='project' src={props.img} />
