@@ -1,4 +1,19 @@
+// { 
+//     projectName: '',
+//     description: '',
+//     tags: [''],
+//     link: '',
+//     img: ''
+// },
+
 const ProjectData = [
+    { 
+        projectName: 'Advice Generator App',
+        description: 'Frontendmentor.io Advice Generator Solution. Built using React, CSS, and HTML. Queried data using Axios from external API (https://api.adviceslip.com/). Hosted using gh-pages',
+        tags: ['ReactJS','CSS','HTML'],
+        link: 'https://nathanyee412.github.io/advice-generator-app/',
+        img: 'https://camo.githubusercontent.com/c2944a37d4b2b20d84a68a0255994f7a6f4333b1190d15e166452fdc2919b4ed/68747470733a2f2f692e696d6775722e636f6d2f456e32634161472e706e67'
+    },
     { 
         projectName: 'Portfolio Project',
         description: 'A static webpage project built with ReactJS and styled with Tailwind CSS. This is the current webpage that you are viewing',

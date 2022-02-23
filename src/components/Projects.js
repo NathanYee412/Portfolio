@@ -15,7 +15,7 @@ export default function Projects() {
                 </div>
                 <hr className="border-amber-300 my-4"></hr>           
                 <div className='sm:grid sm:grid-cols-3 sm:gap-4'>
-                    {ProjectData.slice(0,5).map((project) => {
+                    {ProjectData.slice(0,10).map((project) => {
                         return(
                             <Card projectName={project.projectName} description={project.description} tags={project.tags} link={project.link} img={project.img}/>
                         );
